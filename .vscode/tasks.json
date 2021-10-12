@@ -10,7 +10,7 @@
 				"${file}",
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}",
-				"$(pkg-config", "--cflags", "--libs", "glib-2.0)"
+				"$(pkg-config", "--cflags", "--libs", "libsoup-2.4", "glib-2.0)"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
