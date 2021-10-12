@@ -10,4 +10,4 @@ sudo apt-get install gdb
 
 # Windows + WSL
 ## Build/Run
-Clone repo into WSL file system. Run install commands above. Connect VS Code instance to project directory. Ctrl+F5 to run without debugging; F5 to run debugger.
+Clone repo into WSL file system. Run install commands above. Connect VS Code instance to WSL project directory. Ctrl+F5 to run without debugging or F5 to run debugger.
