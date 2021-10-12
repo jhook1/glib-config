@@ -16,11 +16,6 @@ int main(){
     
     GInputStream *stream;
     stream = soup_session_send(session,msg,NULL,&error);
-    /* GBytes *bytes = soup_session_send_and_read (
-        session,
-        msg,
-        NULL, // Pass a GCancellable here if you want to cancel a download
-        &error); */
 
     if (error) {
         g_printerr ("Failed to download: %s\n", error->message);
@@ -31,7 +26,6 @@ int main(){
     }
 
     response_headers = msg->response_headers;
-    //response_headers = soup_message_get_response_headers (msg);
     content_type = soup_message_headers_get_content_type (response_headers,NULL);
 
     // content_type = "image/png"

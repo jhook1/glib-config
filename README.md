@@ -11,6 +11,10 @@ sudo apt-get install libsoup2.4-dev (NOTE: VERSION 2.4. MAKE SURE YOU LOOK AT DO
 ### Install gdb c++ debugging
 sudo apt-get install gdb
 
+### Update/Install SSL/TLS Certificates
+sudo apt-get update
+sudo apt-get wget ca-certificates
+
 ## Windows + WSL
 ### Build/Run
 Clone repo into WSL file system. Run install commands above. Connect VS Code instance to WSL project directory. Ctrl+F5 to run without debugging or F5 to run debugger.
