@@ -12,7 +12,8 @@ sudo apt-get install libsoup2.4-dev (NOTE: VERSION 2.4. MAKE SURE YOU LOOK AT DO
 sudo apt-get install gdb
 
 ### Update/Install SSL/TLS Certificates
-sudo apt-get update\n
+sudo apt-get update
+
 sudo apt-get wget ca-certificates
 
 ## Windows + WSL
