@@ -14,7 +14,7 @@ sudo apt-get install gdb
 ### Update/Install SSL/TLS Certificates
 sudo apt-get update
 
-sudo apt-get wget ca-certificates
+sudo apt-get install wget ca-certificates
 
 ## Windows + WSL
 ### Build/Run
