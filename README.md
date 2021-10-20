@@ -8,6 +8,9 @@ sudo apt-get install libglib2.0-dev (will install dependencies as well)
 ### Install libsoup library
 sudo apt-get install libsoup2.4-dev (NOTE: VERSION 2.4. MAKE SURE YOU LOOK AT DOCS FOR CORRECT VERSION)
 
+### Install json-glib library
+sudo apt-get install libjson-glib-dev
+
 ### Install gdb c++ debugging
 sudo apt-get install gdb
 
